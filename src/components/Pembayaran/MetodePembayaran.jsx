@@ -19,9 +19,8 @@ return (
                     className="text-black text-base font-extrabold leading-normal">Getting Started with React JS</span>
             </div>
             <div className="left-[49px] top-[59px] absolute text-black text-xs font-semibold leading-tight">September
-                2022 </div>
-            <div className="left-[49px] top-[79px] absolute text-black text-xs font-semibold leading-tight">William
-                Hartono, Farel Prayoga</div>
+                2023 </div>
+            <div className="left-[49px] top-[79px] absolute text-black text-xs font-semibold leading-tight">Ardi W Saputra, Ade Armyatna</div>
             <div className="left-0 top-[59px] absolute text-black text-opacity-50 text-xs font-semibold leading-tight">
                 Batch</div>
             <div className="left-0 top-[79px] absolute text-black text-opacity-50 text-xs font-semibold leading-tight">
@@ -30,7 +29,7 @@ return (
     </div>
     <div className="pl-12">
         <h1 className="text-neutral-900 text-xl font-bold leading-7">Metode Pembayaran</h1>
-        <p className="w-96 text-zinc-500 text-base font-normal leading-normal">Bank Transfer (verifikasi manual)-Mandiri
+        <p className="w-96 text-zinc-500 text-base font-normal leading-normal">Bank Transfer (Verifikasi Manual) - Mandiri
         </p>
 
         <div className="flex">

@@ -9,7 +9,7 @@ function Pagnation () {
         <span className="mr-6 text-gray-400">4</span>
         <span className="mr-6 text-gray-400">...</span>
         <span className="mr-6 text-gray-400">10</span>
-        <button className="ml-4 text-gray-900 mr-10">Selanjutnya &gt;</button>
+        <button className="ml-2 text-gray-900 mr-8">Selanjutnya &gt;</button>
       </div>
     </>
     )
