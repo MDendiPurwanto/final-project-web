@@ -1,5 +1,5 @@
 import React from 'react';
-import Tombol from '../../assets/vector.png';
+import Tombol from '../../assets/Vector.png';
 import { DataMateri } from './Data';
 function Materi() {
  
