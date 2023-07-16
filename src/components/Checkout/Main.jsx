@@ -1,4 +1,4 @@
-import Kiri from '../../assets/leftarrow.svg';
+import Kiri from '../../assets/Leftarrow.svg';
 import Kanan from '../../assets/Vector 96.svg';
 
 function Main() {

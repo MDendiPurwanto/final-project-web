@@ -1,5 +1,6 @@
 import React from "react"
-import Main from "./ProductCatalog/Main"
+import Main from "./ProductCatalog/main";
+
 
 
 function Content () {
