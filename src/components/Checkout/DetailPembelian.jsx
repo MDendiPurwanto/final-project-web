@@ -22,9 +22,9 @@ return (
                             React JS<br /></span><span
                             className="text-black text-base font-extrabold leading-normal">Getting Started with React JS</span></div>
                     <div className="left-[49px] top-[59px] absolute text-black text-xs font-semibold leading-tight">
-                        September 2022 </div>
+                        September 2023 </div>
                     <div className="left-[49px] top-[79px] absolute text-black text-xs font-semibold leading-tight">
-                        William Hartono, Farel Prayoga</div>
+                        Ardi W Saputra, Ardi Armyatna </div>
                     <div
                         className="left-0 top-[59px] absolute text-black text-opacity-50 text-xs font-semibold leading-tight">
                         Batch</div>
@@ -36,15 +36,14 @@ return (
             <div className="w-96 h-20  rounded-lg relative">
                 <div className="w-96 h-20 left-0 top-1 absolute  flex-col justify-start items-start gap-2 inline-flex">
                     <div className="text-neutral-900 text-sm font-extrabold leading-tight">Kode Promo</div>
-                    <div
-                        className="self-stretch h-14 pl-3 pr-2.5 py-2.5 bg-white rounded-tl rounded-bl border border-gray-400 justify-start items-center gap-2.5 inline-flex">
-                        <div className="text-neutral-900 text-sm font-normal leading-tight">Masukkan kode promo</div>
+                    <div className="self-stretch h-14 pl-3 pr-2.5 py-2.5 bg-white rounded-tl rounded-bl border border-gray-400 justify-start items-center gap-2.5 inline-flex">
+                        <input className="text-neutral-900 self-stretch  text-sm font-normal inline-flex gap-2.5 leading-tight" placeholder='Masukkan kode promo'></input>
                     </div>
                 </div>
                 <button
                     className="w-28 h-14 px-4 py-2.5 left-[401px] top-[28px] absolute bg-sky-950 rounded-lg rounded-br border border-gray-400 flex-col justify-center items-center gap-2.5 inline-flex">
                     <div className="justify-start items-center gap-2 inline-flex">
-                        <div className="text-white text-sm font-semibold leading-tight">Terapkan</div>
+                        <button className="text-white text-sm font-semibold leading-tight" onClick={()=> navigate('/Pembayaran')}>Terapkan</button>
                     </div>
                 </button>
             </div>
@@ -53,7 +52,7 @@ return (
                 <div className="left-0 top-0 absolute text-neutral-900 text-sm font-extrabold leading-none">Metode
                     Pembayaran</div>
                 <div className="left-0 top-[31px] absolute text-neutral-900 text-sm font-semibold leading-none">Bank
-                    Transfer (verifikasi manual)-Mandiri</div>
+                    Transfer (Verifikasi Manual) - Mandiri</div>
             </div>
             <div>
                 <p className="text-neutral-900 text-sm font-extrabold leading-none  mt-20 mb-3">Ringkasan Pembayaran</p>
@@ -90,9 +89,9 @@ return (
                 </p>
             </div>
             <div>
-                <div className="flex mt-12">
-                    <img src={Kanan} alt="Kanan" className="mx-4" />
-                    <button className="font-bold text-sm self-center">Batalkan</button>
+                <div className="flex mt-12 ml-[-15px]">
+                    <img src={Kanan} alt="Kanan" className="mx-4" onClick={()=> navigate('/Detail')} />
+                    <button className="font-bold text-sm self-center"  onClick={()=> navigate('/Detail')}>Batalkan</button>
                     <button
                         className=" text-white ml-[235px] bg-sky-950 py-[10px] px-[70px] rounded-full font-600 text-sm"
                         onClick={()=> navigate('/Pembayaran')}>

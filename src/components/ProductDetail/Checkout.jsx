@@ -5,15 +5,15 @@ function Checkout () {
 const navigate = useNavigate();
 return(
 <div>
-    <div className="w-80 h-64 top-32 left-25 relative bg-white rounded-2xl shadow">
+    <div className="w-80 h-64 top-32 left-[32px] relative bg-white rounded-2xl shadow">
         <div className="h-28 left-[-1px] top-[18px] absolute rounded-2xl flex-col justify-start items-start inline-flex">
-            <div
+            <button
                 className="w-72 h-14 px-16 py-2.5 bg-blue-50 border-r-2 border-blue-600 justify-start items-center gap-2.5 inline-flex">
                 <div className="text-blue-600 text-lg font-bold leading-7">Materi</div>
-            </div>
-            <div className="w-80 h-14 px-16 py-2.5 justify-start items-center gap-2.5 inline-flex">
+            </button>
+            <button className="w-80 h-14 px-16 py-2.5 justify-start items-center gap-2.5 inline-flex">
                 <div className="text-neutral-900 text-lg font-semibold leading-7">Fasilitas</div>
-            </div>
+            </button>
         </div>
         <div className="left-[45px] top-[146px] absolute flex-col justify-start items-start gap-1 inline-flex">
             <div className="flex-col justify-center items-center flex">

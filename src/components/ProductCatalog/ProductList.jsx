@@ -6,7 +6,7 @@ function ProductList() {
    const navigate = useNavigate();
     return(
         <div>
-        <div className="w-[352px] h-[293px] bg-slate-100 ml-20 mt-10">
+        <div className="w-[352px] h-[293px]  ml-20 mt-10">
         <div className="w-80 h-32 bg-sky-950 rounded-t-lg">
             <div className="flex">
             <img src={Image} alt="Menu" className="mt-4 ml-7 " />
@@ -17,7 +17,7 @@ function ProductList() {
                 </div>
             </div>
         </div>
-        <button className="h-[164px] w-[352px] rounded-b-3xl bg-white" onClick={() => navigate('/Detail')}>
+        <button className="h-[164px] w-[320px] rounded-b-3xl bg-slate-100" onClick={() => navigate('/Detail')}>
           <div>
             <div className="ml-7 text-left">
               <h1 className="font-bold text-base">Programming React JS </h1>

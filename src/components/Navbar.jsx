@@ -1,6 +1,8 @@
+
 import Heros from "./ProductCatalog/Heros";
 
 function Navbar () {
+
     const program = [
         {
           judul: 'Program',
@@ -53,7 +55,7 @@ function Navbar () {
          <div className="w-screen h-screen opacity-90 bg-sky-950">
             <nav className="lg:flex items-center justify-between p-4 bg-sky-950 font-sans" >
                 <div className="flex items-center">
-                    <span className="text-white font-bold text-3xl uppercase ml-24 font-sans">LOGO</span>
+                    <h1 className="text-white font-bold text-3xl uppercase ml-24 font-sans">LOGO</h1>
                 </div>
 
                 <div className="lg:flex space-x-4 text-md mx-36">

@@ -12,7 +12,7 @@ function DetailProduct () {
 return (
 <>
     <Main />
-    <div className="bg-slate-100 w-full h-full flex">
+    <div className="bg-white w-full h-full flex">
         <Checkout />
         <div className="container">
             <Materi />

@@ -21,7 +21,7 @@ fasilitas: 'Career Development',
 ];
 return (
 <>
-    <div className="w-96 h-72 relative top-[70px] left-[80px] bg-white rounded-2xl shadow">
+    <div className="w-96 h-72 relative top-[70px] left-[80px] bg-white rounded-2xl ">
         <p className="text-slate-700 text-3xl font-bold leading-tight">Fasilitas</p>
         {Benefit.map((item) => (
         <div className="font-semibold text-xl font-sans  flex">
