@@ -1,5 +1,5 @@
 import React from "react"
-import Main from "./ProductCatalog/main";
+import Main from "./ProductCatalog/Main";
 
 
 
